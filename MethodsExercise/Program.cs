@@ -9,12 +9,10 @@
             Console.WriteLine(myStory);
 
             // Exercise 2
-            int x = 2;
-            int y = 3;
-            Console.WriteLine(Add(x, y));
-            Console.WriteLine(Sub(x, y));
-            Console.WriteLine(Div(x, y));
-            Console.WriteLine(Mult(x, y));
+            Console.WriteLine(Add(4, 8));
+            Console.WriteLine(Sub(10, 5));
+            Console.WriteLine(Div(15, 3));
+            Console.WriteLine(Mult(6, 2));
 
         }
         public static string Story()
