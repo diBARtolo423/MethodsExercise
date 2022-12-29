@@ -14,7 +14,13 @@
             Console.WriteLine(Div(15, 3));
             Console.WriteLine(Mult(6, 2));
 
+            // Challange
+
+
         }
+
+        //Exercise 1
+
         public static string Story()
         {
             Console.WriteLine("What is your name?");
@@ -34,6 +40,8 @@
            
         }
 
+        //Exercise 2
+
         public static int Add(int x, int y)
         {
             return x + y;
@@ -51,6 +59,17 @@
             return x * y;
         }
 
+        //Challange
+
+        //public static int Add(params int[] nums)
+        //{
+        //    int sum = 0;
+        //    foreach (int num in nums)
+        //    {
+        //        sum += num;
+        //    }
+        //    return sum;
+        //}
 
     }
 
